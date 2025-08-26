@@ -1,0 +1,42 @@
+/* Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background-color: #222; /* Navbar ka background */
+  color: #fff;
+  font-size: 20px;
+}
+
+.storeName {
+  font-weight: 600;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cartContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cartIcon {
+  font-size: 20px;
+  color: white;
+}
+
+.cartCount {
+  position: absolute;
+  top: -8px; /* icon ke uper le jane ke liye */
+  right: -10px; /* thoda right side */
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 1px 3px;
+  border-radius: 50%;
+  min-width: 18px;
+  text-align: center;
+}
